@@ -1,0 +1,11 @@
+#!/bin/bash
+set -euxo pipefail
+
+echo "Checking if the text file quickstart exists."
+
+if [ -f /root/quickstart ]
+then
+    echo "The text file quickstart exists"
+else
+    fail-message "There is no text file named quickstart, did you create it?"
+fi

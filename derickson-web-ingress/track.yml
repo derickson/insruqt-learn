@@ -1,0 +1,23 @@
+slug: derickson-web-ingress
+id: yxusrjeqsf7f
+title: derickson-web-ingress
+teaser: Allow external systems to communicate with a VM.
+description: |-
+  This template shows you how to configure a Virtual Machine (VM) that
+  allows external ingress.
+
+  **This track demonstrates how to:**
+  - Allow external ingress to a server using HTTP on **port 80**
+  - Allow external ingress to a server using HTTPS on **port 433**
+  - Embed exposed servers using the website tab
+icon: https://cdn.instruqt.com/img/logo/instruqt_isotype_indigo.svg
+tags:
+- testing
+owner: elastic
+developers:
+- dave@elastic.co
+lab_config:
+  overlay: false
+  width: 33
+  position: right
+checksum: "8891217822096381260"

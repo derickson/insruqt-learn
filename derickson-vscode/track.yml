@@ -1,0 +1,24 @@
+slug: derickson-vscode
+id: 0w1cb2mpanel
+title: derickson-vscode
+teaser: Edit and test TypeScript applications in Visual Studio Code (Code Editor)
+description: |-
+  A basic track for editing a TypeScript application and running tests for it.
+  The track checks are failing based on the test results.
+
+  **This track demonstrates how to:**
+  - Add IDE code editor features to an Instruqt track
+  - Use a code server container to serve a VSCode IDE
+  - Run a unit test suite in a check script
+icon: https://cdn.instruqt.com/assets/templates/ts.png
+tags:
+- typescript
+- vscode
+owner: elastic
+developers:
+- dave@elastic.co
+lab_config:
+  overlay: false
+  width: 33
+  position: right
+checksum: "10513935405517511382"
